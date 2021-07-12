@@ -4,7 +4,7 @@ Blacklist_game = ["CSGO"]
 Blacklist_event = []
 
 # Program debug
-debugLevel = 2
+debugLevel = 0
 
 # Switch of auto vote cast function
 autoVote = True
