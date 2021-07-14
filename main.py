@@ -21,8 +21,8 @@ if cycleTime != 0:
         strafeRequest.taskQueue(task1)
         strafeRequest.taskQueue(task2)
         strafeRequest.taskQueue(task3)
+		print("Waiting for next task cycle:", cycleTime, "seconds, current time:", time.time())
         time.sleep(cycleTime)
-        print("Waiting for next task cycle:", cycleTime, "seconds")
 else:
     strafeRequest.taskQueue(task1)
     strafeRequest.taskQueue(task2)
